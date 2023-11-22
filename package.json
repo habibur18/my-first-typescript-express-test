@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start:prod": "nodemon ./dist/server.js",
     "build": "tsc -w",
     "lint": "eslint src --ignore-path .eslintignore --ext .js,.ts",
     "lint:fix": "eslint src --ignore-path .eslintignore --ext .js,.ts --fix",
